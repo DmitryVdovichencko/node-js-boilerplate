@@ -1,15 +1,15 @@
 install:
-  npm install
+	npm install
 start:
-  npx babel-node src/index.js
+	npx babel-node src/index.js
 build:
-  rm -rf dist
-  npm run build
+	rm -rf dist
+	npm run build
 publish:
-  npm publish
+	npm publish
 lint:
-  npx eslint .
+	npx eslint .
 test:
-  npm test
+	npm test
 test-coverage:
-  npm test -- --coverage
+	npm test -- --coverage
